@@ -1,24 +1,24 @@
 
 package test;
 
-<<<<<<< HEAD
-import kartyacuccoop.Pakli;
-import kartyacuccoop.Program;
 
-
-=======
 import kartyacuccoop.Kartya;
 import kartyacuccoop.Pakli;
+
+
+
 
 /**
  *
  * @author ammer.mark
  */
->>>>>>> 82fb3132424c852469e43480647660ac4e9f955e
+
 public class Tesztek {
         public static void main(String[] args) {
             megjelenitTest();
             pakliFeltolt();
+            pakliMeret();
+            testOszlopKeveres();
         }
         
         static void megjelenitTest(){
