@@ -8,7 +8,7 @@ Kartya
 Program
 ===
 
-Vén Dávid
+Vén Dávid 40% munkának
 
 
 
@@ -16,5 +16,5 @@ Vén Dávid
 
 # Pakli
 
-Ammer Márk
+Ammer Márk 60% kb a munkának
 
