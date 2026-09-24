@@ -18,8 +18,8 @@ public class Kartya {
     public String getSzin() {
         return szin;
     }
-    private static String megjelnit(String ertek,String szin){
-        return ertek + " " + szin;
+    public String megjelnit(){
+        return ertek + "_" + szin;
     }
 
     @Override
