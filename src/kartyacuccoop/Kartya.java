@@ -24,7 +24,7 @@ public class Kartya {
 
     @Override
     public String toString() {
-        return "Kartya{" + "ertek=" + ertek + ", szin=" + szin + '}';
+        return ertek + "_" + szin;
     }
     
     

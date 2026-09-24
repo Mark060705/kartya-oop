@@ -37,7 +37,11 @@ public class Program {
         return number;
     }
     public static void main(String[] args) {
+        for (int i = 0; i < 3; i++) {
+            kirak();
+            pakli.kever(melyik());
+        }
         kirak();
-        pakli.kever(melyik());
+        System.out.println(pakli.ezVolt());
     }
 }

@@ -66,7 +66,7 @@ public class Pakli {
             kartyak = uj;
     }
     
-    private Kartya ezVolt() {
+    public Kartya ezVolt() {
         Kartya[] kartyakCopy = Arrays.copyOf(kartyak, kartyak.length);
         
         return kartyakCopy[11];
