@@ -21,11 +21,5 @@ public class Kartya {
     public String megjelnit(){
         return ertek + "_" + szin;
     }
-
-    @Override
-    public String toString() {
-        return ertek + "_" + szin;
-    }
-    
-    
+       
 }

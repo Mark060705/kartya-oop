@@ -72,9 +72,13 @@ public class Pakli {
         return kartyakCopy[11].megjelnit();
     }
 
-    public Kartya[] getKartyak() {
+    public String[] getKartyak() {
         
-        Kartya[] kartyakCopy = Arrays.copyOf(kartyak, kartyak.length);
+        String[] kartyakCopy = new String[22];
+        
+        for (int i = 1; i < 22; ++i) {
+            kartyakCopy[i] = kartyak[i].megjelnit();
+        }
         
         return kartyakCopy;
     }
