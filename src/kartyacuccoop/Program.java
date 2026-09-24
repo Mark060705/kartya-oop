@@ -36,7 +36,7 @@ public class Program {
         }
         return number;
     }
-    public static void main(String[] args) {
+    public static void trukk() {
         for (int i = 0; i < 3; i++) {
             kirak();
             pakli.kever(melyik());
