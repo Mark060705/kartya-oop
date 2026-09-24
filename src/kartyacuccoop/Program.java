@@ -5,14 +5,14 @@ package kartyacuccoop;
     import java.util.Scanner;
 public class Program {
     
-    static String[] pakli = new String[22];
+    static Pakli pakli = new Pakli();
     static Scanner scanner = new Scanner(System.in);
     
     private static void kirak() {
         String szoveg = "";
 
         for (int i = 1; i < 22; ++i) {
-            szoveg += String.format("%-8s", pakli[i]);
+            szoveg += String.format("%-8s", pakli.getKartyak()[i]);
 
             if (i % 3 == 0) {
                 szoveg += "\n";
@@ -37,7 +37,7 @@ public class Program {
         return number;
     }
     public static void main(String[] args) {
-        melyik();
         kirak();
+        pakli.kever(melyik());
     }
 }
