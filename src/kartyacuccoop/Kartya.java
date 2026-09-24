@@ -21,4 +21,11 @@ public class Kartya {
     private static String megjelnit(String ertek,String szin){
         return ertek + " " + szin;
     }
+
+    @Override
+    public String toString() {
+        return "Kartya{" + "ertek=" + ertek + ", szin=" + szin + '}';
+    }
+    
+    
 }

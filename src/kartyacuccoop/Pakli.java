@@ -1,16 +1,25 @@
 
 package kartyacuccoop;
 
+<<<<<<< HEAD
+=======
+
+import java.util.Arrays;
+
+>>>>>>> 4023b4b18836d3e0380e0e932bb1f357e79d07f9
 /**
  *
  * @author AmmerMárkDániel(SZF_
  */
 
+<<<<<<< HEAD
 
 
 
 import java.util.Arrays;
 
+=======
+>>>>>>> 4023b4b18836d3e0380e0e932bb1f357e79d07f9
 public class Pakli {
     private Kartya[] kartyak = new Kartya[22];
 
