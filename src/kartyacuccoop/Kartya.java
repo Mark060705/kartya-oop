@@ -1,13 +1,24 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package kartyacuccoop;
 
-/**
- *
- * @author AmmerMárkDániel(SZF_
- */
+
 public class Kartya {
-    
+    private String ertek;
+    private String szin;
+
+    public Kartya(String ertek, String szin) {
+        this.ertek = ertek;
+        this.szin = szin;
+    }
+
+    public String getErtek() {
+        return ertek;
+    }
+
+    public String getSzin() {
+        return szin;
+    }
+    private static String megjelnit(String ertek,String szin){
+        return ertek + " " + szin;
+    }
 }

@@ -1,13 +1,43 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package kartyacuccoop;
 
-/**
- *
- * @author AmmerMárkDániel(SZF_
- */
+    import java.util.Arrays;
+    import java.util.Scanner;
 public class Program {
     
+    static String[] pakli = new String[22];
+    static Scanner scanner = new Scanner(System.in);
+    
+    private static void kirak() {
+        String szoveg = "";
+
+        for (int i = 1; i < 22; ++i) {
+            szoveg += String.format("%-8s", pakli[i]);
+
+            if (i % 3 == 0) {
+                szoveg += "\n";
+            }
+        }
+
+        System.out.println(szoveg);
+    }
+    private static int melyik() {
+        System.out.println("melyik oszlop? (1-3)");
+        
+        int number;
+        number = scanner.nextInt();
+        
+        if(number < 1 || number > 3){
+        
+            while(number < 1 || number > 3) {
+                System.out.print("1-től  3-ig: ");
+                number = scanner.nextInt();
+            }
+        }
+        return number;
+    }
+    public static void main(String[] args) {
+        melyik();
+        kirak();
+    }
 }
